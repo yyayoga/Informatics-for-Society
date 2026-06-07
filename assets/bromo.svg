@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Volcanic mountain sunrise">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b3051"/>
+      <stop offset="48%" stop-color="#304f73"/>
+      <stop offset="100%" stop-color="#f2a44d"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8c3cf"/>
+      <stop offset="45%" stop-color="#53616f"/>
+      <stop offset="100%" stop-color="#182230"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="920" cy="164" r="116" fill="#ffdcb0" opacity="0.75"/>
+  <path d="M0 640C120 590 220 520 340 500C460 480 570 520 662 560C782 612 878 606 1000 550C1094 508 1144 472 1200 452V900H0Z" fill="#17202a"/>
+  <path d="M260 650L430 430L560 544L640 380L780 486L910 330L1060 510L1200 640V900H180Z" fill="url(#mountain)"/>
+  <path d="M430 430L560 544L640 380L700 460L780 486L840 404L910 330L970 420L1060 510L1200 640V900H180Z" fill="#f4efe7" opacity="0.92"/>
+  <path d="M240 660C360 624 470 622 586 656C694 688 812 700 940 664C1030 640 1100 620 1200 608V900H0V702C80 694 154 680 240 660Z" fill="url(#mist)" opacity="0.45"/>
+  <path d="M0 760C120 730 240 720 360 726C530 734 690 774 840 774C982 774 1090 744 1200 726V900H0Z" fill="#0c131d"/>
+  <rect x="0" y="0" width="1200" height="900" fill="#ffffff" opacity="0.04"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Tropical villa with pool">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5c78f"/>
+      <stop offset="44%" stop-color="#72b0d9"/>
+      <stop offset="100%" stop-color="#1c2737"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6fbff"/>
+      <stop offset="45%" stop-color="#4cb6c7"/>
+      <stop offset="100%" stop-color="#0f4e70"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6efe2"/>
+      <stop offset="100%" stop-color="#c6aa88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="890" cy="140" r="110" fill="#fff3b0" opacity="0.78"/>
+  <rect x="0" y="520" width="1200" height="380" fill="#17303e"/>
+  <rect x="70" y="450" width="700" height="250" rx="26" fill="url(#water)"/>
+  <rect x="70" y="450" width="700" height="250" rx="26" fill="#8ce3ef" opacity="0.2"/>
+  <rect x="130" y="250" width="280" height="180" rx="18" fill="url(#house)"/>
+  <rect x="375" y="220" width="330" height="210" rx="20" fill="#2d3947"/>
+  <rect x="420" y="260" width="150" height="80" rx="10" fill="#98c4d8" opacity="0.9"/>
+  <rect x="590" y="260" width="90" height="150" rx="8" fill="#22303f"/>
+  <rect x="150" y="290" width="90" height="140" rx="8" fill="#22303f"/>
+  <rect x="255" y="290" width="90" height="140" rx="8" fill="#22303f"/>
+  <path d="M115 452C165 402 240 372 314 372C394 372 475 402 524 452" fill="none" stroke="#6b5a46" stroke-width="22" stroke-linecap="round"/>
+  <rect x="780" y="220" width="390" height="560" rx="30" fill="#253a31"/>
+  <path d="M810 700C860 620 946 552 1012 552C1070 552 1110 604 1158 690V780H810Z" fill="#12354b"/>
+  <path d="M0 780C100 720 180 700 266 700C386 700 512 750 600 780H0Z" fill="#0d2130"/>
+  <circle cx="990" cy="350" r="26" fill="#f3de74" opacity="0.5"/>
+  <rect x="0" y="0" width="1200" height="900" fill="#ffffff" opacity="0.04"/>
+</svg>

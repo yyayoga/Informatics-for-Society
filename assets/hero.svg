@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Mountain landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5f38"/>
+      <stop offset="48%" stop-color="#30445d"/>
+      <stop offset="100%" stop-color="#0a1320"/>
+    </linearGradient>
+    <linearGradient id="peak" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8d7e8"/>
+      <stop offset="28%" stop-color="#64788f"/>
+      <stop offset="100%" stop-color="#1b2432"/>
+    </linearGradient>
+    <linearGradient id="valley" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#202b3c"/>
+      <stop offset="100%" stop-color="#090f16"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.78" cy="0.18" r="0.38">
+      <stop offset="0%" stop-color="#ffd88a" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#ffd88a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sun)"/>
+  <g opacity="0.16">
+    <ellipse cx="820" cy="540" rx="560" ry="180" fill="#fff"/>
+    <ellipse cx="350" cy="540" rx="260" ry="78" fill="#fff"/>
+    <ellipse cx="1210" cy="540" rx="320" ry="88" fill="#fff"/>
+  </g>
+  <g>
+    <path d="M0 700L170 560L300 620L470 440L620 510L780 320L920 450L1080 280L1260 390L1420 330L1600 470V900H0Z" fill="#121927"/>
+    <path d="M0 760L210 620L410 685L610 530L800 640L980 500L1180 610L1360 570L1600 690V900H0Z" fill="#0c121c"/>
+    <path d="M260 560L470 360L650 430L790 250L910 380L1040 270L1160 390L1260 320L1320 370L1400 500L1600 640V900H220Z" fill="url(#peak)"/>
+    <path d="M260 560L340 450L390 490L470 360L520 400L610 510L670 430L720 380L790 250L850 330L910 380L980 310L1040 270L1090 330L1160 390L1220 350L1260 320L1320 370L1400 500L1600 640V900H220Z" fill="#f3efe8" opacity="0.88"/>
+    <path d="M0 760C120 740 260 720 400 730C560 742 680 770 820 770C980 770 1100 736 1280 724C1430 714 1520 728 1600 740V900H0Z" fill="url(#valley)"/>
+  </g>
+</svg>

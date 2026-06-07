@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Traveler on cliff at sunset">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5c98d"/>
+      <stop offset="44%" stop-color="#c58f63"/>
+      <stop offset="100%" stop-color="#23384a"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8e5632"/>
+      <stop offset="100%" stop-color="#38241d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="930" cy="140" r="108" fill="#ffe19b" opacity="0.9"/>
+  <path d="M0 520C100 460 204 432 314 442C424 452 520 492 610 512C724 536 840 516 956 474C1050 440 1120 422 1200 412V900H0Z" fill="#4d3227" opacity="0.72"/>
+  <path d="M0 620C110 566 200 550 302 560C424 572 514 622 612 644C728 670 846 646 962 600C1062 562 1130 542 1200 534V900H0Z" fill="url(#ground)"/>
+  <path d="M410 664L676 604L840 690L902 900H318Z" fill="#2a1e17"/>
+  <path d="M582 418C606 382 646 362 688 364C736 366 770 394 786 436C802 476 792 526 760 560C720 602 652 610 602 578C560 550 538 496 546 452C550 434 562 424 582 418Z" fill="#0b1017"/>
+  <path d="M618 442C640 436 664 444 682 460C704 478 714 508 706 532C696 558 668 574 640 568C610 560 592 530 596 500C600 476 606 452 618 442Z" fill="#1d2531"/>
+  <path d="M626 570L594 744H702L676 566Z" fill="#1a202c"/>
+  <path d="M626 570L582 718H632L652 614L676 566Z" fill="#121720"/>
+  <path d="M680 564L748 732H804L718 544Z" fill="#10151d"/>
+  <path d="M566 576L522 754H580L626 570Z" fill="#10151d"/>
+  <rect x="0" y="0" width="1200" height="900" fill="#ffffff" opacity="0.05"/>
+</svg>

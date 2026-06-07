@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Tropical islands in turquoise water">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#72c5ef"/>
+      <stop offset="56%" stop-color="#69d8ff"/>
+      <stop offset="100%" stop-color="#084f78"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6af2f0"/>
+      <stop offset="42%" stop-color="#1eb4d4"/>
+      <stop offset="100%" stop-color="#054764"/>
+    </linearGradient>
+    <linearGradient id="island" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8d96b"/>
+      <stop offset="100%" stop-color="#2f5c34"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <rect y="430" width="1200" height="470" fill="url(#water)"/>
+  <ellipse cx="210" cy="470" rx="128" ry="56" fill="#143f4e" opacity="0.45"/>
+  <ellipse cx="280" cy="520" rx="182" ry="76" fill="#143f4e" opacity="0.38"/>
+  <ellipse cx="880" cy="470" rx="170" ry="70" fill="#143f4e" opacity="0.35"/>
+  <path d="M118 452C144 364 222 286 308 256C360 238 424 244 470 274C512 302 538 354 520 410C498 476 430 514 352 520C258 528 160 500 118 452Z" fill="url(#island)"/>
+  <path d="M740 430C770 356 845 286 930 260C978 246 1030 252 1078 286C1112 310 1138 360 1130 406C1120 462 1068 504 998 520C906 540 796 502 740 430Z" fill="url(#island)"/>
+  <path d="M116 468C162 472 204 478 258 504C302 524 360 522 420 514C362 592 238 634 124 624Z" fill="#ffefbe" opacity="0.26"/>
+  <path d="M760 452C828 470 884 492 944 540C978 566 1032 572 1084 566C1050 640 926 694 776 678Z" fill="#ffefbe" opacity="0.2"/>
+  <rect x="0" y="0" width="1200" height="900" fill="#ffffff" opacity="0.05"/>
+</svg>
