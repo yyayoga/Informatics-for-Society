@@ -84,7 +84,8 @@ a {
   text-decoration: none;
 }
 
-button, a {
+button,
+a {
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
@@ -94,7 +95,8 @@ img {
   display: block;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
   padding: 0;
 }
@@ -253,7 +255,7 @@ ul, ol {
   transition: transform var(--duration-fast) ease, opacity var(--duration-fast) ease;
 }
 
-.menu-toggle span + span {
+.menu-toggle span+span {
   margin-top: 4px;
 }
 
@@ -457,12 +459,19 @@ ul, ol {
 .scroll-indicator-line {
   width: 1px;
   height: 32px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.4), transparent);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), transparent);
 }
 
 @keyframes scroll-bounce {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(8px); }
+
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(8px);
+  }
 }
 
 /* ── Sections ── */
@@ -781,6 +790,10 @@ ul, ol {
 
 .testimonial-section .section-heading p {
   color: rgba(255, 255, 255, 0.55);
+}
+
+.testimonial-section h2 {
+  color: white;
 }
 
 .testimonial-carousel {
@@ -1134,11 +1147,25 @@ ul, ol {
   transform: translateY(0);
 }
 
-.reveal-delay-1 { transition-delay: 0.08s; }
-.reveal-delay-2 { transition-delay: 0.16s; }
-.reveal-delay-3 { transition-delay: 0.24s; }
-.reveal-delay-4 { transition-delay: 0.32s; }
-.reveal-delay-5 { transition-delay: 0.4s; }
+.reveal-delay-1 {
+  transition-delay: 0.08s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.16s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.24s;
+}
+
+.reveal-delay-4 {
+  transition-delay: 0.32s;
+}
+
+.reveal-delay-5 {
+  transition-delay: 0.4s;
+}
 
 /* ── WhatsApp Widget ── */
 .wa-widget {
@@ -1206,8 +1233,15 @@ ul, ol {
 }
 
 @keyframes wa-pulse {
-  0% { transform: scale(1); opacity: 0.5; }
-  100% { transform: scale(1.7); opacity: 0; }
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
 }
 
 .wa-tooltip {
@@ -1258,7 +1292,7 @@ ul, ol {
   transform-origin: bottom right;
   pointer-events: none;
   transition: opacity var(--duration-base) var(--ease-out),
-              transform var(--duration-base) var(--ease-out);
+    transform var(--duration-base) var(--ease-out);
 }
 
 .wa-card.is-visible {
@@ -1317,8 +1351,15 @@ ul, ol {
 }
 
 @keyframes wa-blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
 }
 
 .wa-card-close {
@@ -1385,16 +1426,23 @@ ul, ol {
 
 /* ── Reduced Motion ── */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  html { scroll-behavior: auto; }
+
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 /* ── Responsive ── */
 @media (max-width: 1080px) {
+
   .about-grid,
   .footer-grid {
     grid-template-columns: 1fr;
@@ -1424,7 +1472,9 @@ ul, ol {
     padding: 10px 14px;
   }
 
-  .brand { grid-area: brand; }
+  .brand {
+    grid-area: brand;
+  }
 
   .menu-toggle {
     grid-area: toggle;
@@ -1456,11 +1506,17 @@ ul, ol {
     width: 100%;
   }
 
-  .nav-cta { display: none; }
+  .nav-cta {
+    display: none;
+  }
 
-  .hero { padding-top: 130px; }
+  .hero {
+    padding-top: 130px;
+  }
 
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .section-heading {
     flex-direction: column;
@@ -1504,22 +1560,31 @@ ul, ol {
     font-size: 0.95rem;
   }
 
-  .scroll-indicator { display: none; }
+  .scroll-indicator {
+    display: none;
+  }
 
   .cards-grid {
     grid-template-columns: 1fr;
     gap: var(--gap-sm);
   }
 
-  .destination-card { aspect-ratio: 16 / 10; }
-  .destination-card.featured { aspect-ratio: 16 / 10; }
+  .destination-card {
+    aspect-ratio: 16 / 10;
+  }
+
+  .destination-card.featured {
+    aspect-ratio: 16 / 10;
+  }
 
   .stats-grid {
     grid-template-columns: 1fr 1fr;
     gap: 8px;
   }
 
-  .about-visual { min-height: 340px; }
+  .about-visual {
+    min-height: 340px;
+  }
 
   .testimonial-carousel {
     padding: 32px 20px 28px;
@@ -1530,14 +1595,41 @@ ul, ol {
     padding: 36px 24px;
   }
 
-  .footer-grid { grid-template-columns: 1fr; }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
 
   /* WhatsApp mobile */
-  .wa-widget { bottom: 16px; right: 14px; }
-  .wa-fab { width: 52px; height: 52px; }
-  .wa-fab-icon svg { width: 26px; height: 26px; }
-  .wa-card { width: calc(100vw - 28px); max-width: 320px; }
-  .wa-tooltip { display: none; }
+  .wa-widget {
+    bottom: 16px;
+    right: 14px;
+  }
 
-  .back-to-top { left: 14px; bottom: 16px; width: 40px; height: 40px; }
+  .wa-fab {
+    width: 52px;
+    height: 52px;
+  }
+
+  .wa-fab-icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .wa-card {
+    width: calc(100vw - 28px);
+    max-width: 320px;
+  }
+
+  .wa-tooltip {
+    display: none;
+  }
+
+  .back-to-top {
+    left: 14px;
+    bottom: 16px;
+    width: 40px;
+    height: 40px;
+  }
+
+
 }
