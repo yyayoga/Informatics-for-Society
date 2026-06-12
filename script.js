@@ -106,6 +106,39 @@ navLinks.forEach((link) => {
 
 renderTestimonial(activeTestimonial);
 
+// WhatsApp Widget
+const waFab = document.getElementById('waFab');
+const waCard = document.getElementById('waCard');
+const waClose = document.getElementById('waClose');
+
+function toggleWaCard(show) {
+  const isVisible = typeof show === 'boolean' ? show : !waCard.classList.contains('is-visible');
+  waCard.classList.toggle('is-visible', isVisible);
+  waFab.classList.toggle('is-open', isVisible);
+}
+
+waFab.addEventListener('click', () => toggleWaCard());
+waClose.addEventListener('click', () => toggleWaCard(false));
+
+document.addEventListener('click', (e) => {
+  const widget = document.getElementById('waWidget');
+  if (waCard.classList.contains('is-visible') && !widget.contains(e.target)) {
+    toggleWaCard(false);
+  }
+});
+
+// Auto-show card briefly after 5 seconds
+setTimeout(() => {
+  if (!waCard.classList.contains('is-visible')) {
+    toggleWaCard(true);
+    setTimeout(() => {
+      if (waCard.classList.contains('is-visible')) {
+        toggleWaCard(false);
+      }
+    }, 8000);
+  }
+}, 5000);
+
 // Hero Background Slideshow
 const heroBgs = document.querySelectorAll('.hero-bg');
 let currentBgIndex = 0;
